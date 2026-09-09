@@ -1,9 +1,10 @@
 (ns kotoba.coll.index-by
-  "index-by -- one definition, addressed on its own.
+  "index-by -- addressed on its own.
 
-  Split out of kotoba.lang.text on 2026-09-09. The unit here is the
-  DEFINITION, not the library: this repo holds index-by and names, in its
-  deps.edn, exactly the definitions index-by reaches. Nothing else."
+  Split out of kotoba.lang.coll on 2026-09-09 (ADR-2609091200). The unit
+  here is the DEFINITION, and this repo's deps.edn names exactly the
+  definitions it reaches -- nothing else.
+"
   )
 
 (defn index-by
